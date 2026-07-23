@@ -1,0 +1,302 @@
+(footprint "3PDT_Wiring_Board"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf")
+	(tags "SW PUSH SMALL Tactile C&K")
+	(property "Reference" "SW1"
+		(at 9.75 8.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2f202db3-ab20-48d9-b6f0-e8b1f571487c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_3PDT_Footswitch"
+		(at 9.4 18.71 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa4631c7-72b3-47cd-901b-51b959e371c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 9.75 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0ee2d85-1e52-4c31-a0ce-8c6d6399853d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "3PDT Footswitch"
+		(at 9.75 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94e09c3c-1f0b-4061-b006-95d1fce2b503")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "3PDT_Wiring_Board.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.15 -0.1)
+		(end -0.15 17.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1af02555-d88e-43a2-af4e-17928c57e05c")
+	)
+	(fp_line
+		(start -0.15 -0.1)
+		(end 19.65 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87be54b9-ec5d-4112-9602-6733b453629c")
+	)
+	(fp_line
+		(start 19.65 17.1)
+		(end -0.15 17.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dded809a-b6fd-4f98-9884-f14a3d895e20")
+	)
+	(fp_line
+		(start 19.65 17.1)
+		(end 19.65 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f92bb320-9674-48b7-abd2-f926fa6cf479")
+	)
+	(fp_circle
+		(center 9.75 8.5)
+		(end 14.75 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "15c35045-21dc-4f91-8c72-b844f7ee4a5d")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end -0.5 17.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94fee656-471a-4599-8452-df4e323a4f95")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end 20 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1a6b784-c7c2-4def-bdec-b4f41e420e7b")
+	)
+	(fp_line
+		(start 20 17.5)
+		(end -0.5 17.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ab125c0-b140-4263-bcb7-3b26b2e93040")
+	)
+	(fp_line
+		(start 20 17.5)
+		(end 20 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00b78015-8dbe-44b9-b688-66127182b953")
+	)
+	(fp_line
+		(start -0.05 0)
+		(end 19.55 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "508a6d49-272b-47fa-b3bc-a34c88e1be6d")
+	)
+	(fp_line
+		(start -0.05 17)
+		(end -0.05 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b3bf41c-9d88-40b7-b192-f2b6eec0928d")
+	)
+	(fp_line
+		(start 19.55 0)
+		(end 19.55 17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b92f567d-87cc-4869-bdb9-0ee851de5077")
+	)
+	(fp_line
+		(start 19.55 17)
+		(end -0.05 17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb8b9503-37dc-4282-b0e6-28d3afebf500")
+	)
+	(pad "1" thru_hole oval
+		(at 4.15 3.7)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14419667-ae02-4644-bbff-896fd3cc5167")
+	)
+	(pad "2" thru_hole oval
+		(at 9.75 3.7)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be964d37-f42f-4e81-8fa8-0b92af3ca8d8")
+	)
+	(pad "3" thru_hole oval
+		(at 15.35 3.7)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "327975e7-97cc-44cb-b1cf-148a4c1a7ac4")
+	)
+	(pad "4" thru_hole oval
+		(at 4.15 8.5)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd0ebe9a-fb01-4cc8-bf37-3f7beace25b1")
+	)
+	(pad "5" thru_hole oval
+		(at 9.75 8.5)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "087fd289-33ca-4e9e-8304-c60f157dc99c")
+	)
+	(pad "6" thru_hole oval
+		(at 15.35 8.5)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f79b19e3-338e-4ee3-9ddb-8f62d70c5893")
+	)
+	(pad "7" thru_hole oval
+		(at 4.15 13.3)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5afe5627-41ae-46b9-a4f8-48139c5f9a1a")
+	)
+	(pad "8" thru_hole oval
+		(at 9.75 13.3)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22805489-c904-4e47-83e2-e7f07843f957")
+	)
+	(pad "9" thru_hole oval
+		(at 15.35 13.3)
+		(size 4 3)
+		(drill oval 2.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db065492-6b6f-4575-9ba0-54cefe5d6a5f")
+	)
+	(group ""
+		(uuid "c1b2ba70-0d87-40cf-8cfb-c034157d4053")
+		(members "087fd289-33ca-4e9e-8304-c60f157dc99c" "14419667-ae02-4644-bbff-896fd3cc5167"
+			"22805489-c904-4e47-83e2-e7f07843f957" "327975e7-97cc-44cb-b1cf-148a4c1a7ac4"
+			"5afe5627-41ae-46b9-a4f8-48139c5f9a1a" "be964d37-f42f-4e81-8fa8-0b92af3ca8d8"
+			"db065492-6b6f-4575-9ba0-54cefe5d6a5f" "dd0ebe9a-fb01-4cc8-bf37-3f7beace25b1"
+			"f79b19e3-338e-4ee3-9ddb-8f62d70c5893"
+		)
+	)
+	(group ""
+		(uuid "1b4bb42b-8342-4249-8c18-837df121d401")
+		(members "1af02555-d88e-43a2-af4e-17928c57e05c" "87be54b9-ec5d-4112-9602-6733b453629c"
+			"dded809a-b6fd-4f98-9884-f14a3d895e20" "f92bb320-9674-48b7-abd2-f926fa6cf479"
+		)
+	)
+	(group ""
+		(uuid "2f8483d3-cb10-4dd8-a7c2-f4f402ad6599")
+		(members "00b78015-8dbe-44b9-b688-66127182b953" "5ab125c0-b140-4263-bcb7-3b26b2e93040"
+			"94fee656-471a-4599-8452-df4e323a4f95" "b1a6b784-c7c2-4def-bdec-b4f41e420e7b"
+		)
+	)
+	(group ""
+		(uuid "781ad678-fe27-4ed6-83ed-c8cebbfa9f05")
+		(members "2b3bf41c-9d88-40b7-b192-f2b6eec0928d" "508a6d49-272b-47fa-b3bc-a34c88e1be6d"
+			"b92f567d-87cc-4869-bdb9-0ee851de5077" "bb8b9503-37dc-4282-b0e6-28d3afebf500"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_Straight_KSA0Axx1LFTR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
