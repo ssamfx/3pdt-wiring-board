@@ -35,7 +35,7 @@ The middle pins have some flexibility. I prefer wiring one to ground and the oth
 ## What's included?
  
 - KiCad project files (schematic + PCB)
-- KiCad custom footprint footprint
+- KiCad custom footprint
 - Fabrication files (Gerbers + drill files)
 
 
