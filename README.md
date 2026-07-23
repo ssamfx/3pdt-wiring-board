@@ -1,10 +1,10 @@
 # 3PDT Wiring Board
 
 <p align="center">
-<img src="photos/001.jpg" width="250">
-<img src="photos/002.jpg" width="250">
-<img src="photos/003.jpg" width="250">
-<img src="photos/004.jpg" width="250">
+<img src="photos/001.jpg" width="24%">
+<img src="photos/002.jpg" width="24%">
+<img src="photos/003.jpg" width="24%">
+<img src="photos/004.jpg" width="24%">
 </p>
 
 ## What it is
